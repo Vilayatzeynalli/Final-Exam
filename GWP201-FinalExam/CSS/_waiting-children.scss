@@ -1,0 +1,23 @@
+#waiting-children{
+    background-color: bisque;
+    padding: 50px 0;
+    .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: 0.8;
+        img{
+            height: 300px;
+            border: 1px solid black;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+                
+            }
+           }
+    }
+    .waiting{
+        text-align: center;
+    }
+}

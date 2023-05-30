@@ -1,0 +1,24 @@
+#featured-stories{
+    padding: 50px 0;
+    h1{
+        text-align: center;
+    }
+    .row{
+        .img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+           img{
+            height: 300px;
+            border: 1px solid black;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.2);
+                
+            }
+           }
+          
+        }
+    }
+}
